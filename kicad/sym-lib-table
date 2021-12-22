@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name duet_micro_tool)(type Legacy)(uri C:/projects/duet_micro_tool/repo/kicad/duet_micro_tool.lib)(options "")(descr ""))
+)
