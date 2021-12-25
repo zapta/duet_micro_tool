@@ -1533,4 +1533,43 @@ Text Notes 6875 5550 0    50   ~ 0
 STATUS
 Text Notes 7325 5550 0    50   ~ 0
 ACT
+$Comp
+L Device:C C?
+U 1 1 624C7381
+P 4700 5950
+F 0 "C?" H 4550 5850 50  0000 L CNN
+F 1 "100n" H 4500 6050 50  0000 L CNN
+F 2 "" H 4738 5800 50  0001 C CNN
+F 3 "~" H 4700 5950 50  0001 C CNN
+F 4 "C307331" H 4700 5950 50  0001 C CNN "LCSC Part Number"
+	1    4700 5950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 6150 4700 6150
+Wire Wire Line
+	4500 5750 4700 5750
+Wire Wire Line
+	4700 5750 4700 5800
+Text GLabel 4900 5750 2    50   Input ~ 0
+3.3V
+Wire Wire Line
+	4700 5750 4900 5750
+Connection ~ 4700 5750
+$Comp
+L power:GND #PWR?
+U 1 1 6250AF69
+P 4700 6175
+F 0 "#PWR?" H 4700 5925 50  0001 C CNN
+F 1 "GND" H 4705 6002 50  0001 C CNN
+F 2 "" H 4700 6175 50  0001 C CNN
+F 3 "" H 4700 6175 50  0001 C CNN
+	1    4700 6175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 6100 4700 6150
+Connection ~ 4700 6150
+Wire Wire Line
+	4700 6150 4700 6175
 $EndSCHEMATC

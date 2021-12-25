@@ -979,7 +979,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 3500 3350 3550
 Text Notes 950  1250 0    50   ~ 0
-8VDC to  24VDC
+VIN 12VDC/24VDC
 $Comp
 L Device:CP1 C3
 U 1 1 61EB8193
@@ -1075,8 +1075,8 @@ Wire Wire Line
 	3250 1950 3250 2000
 Wire Wire Line
 	2950 1950 2950 2000
-Text Notes 3100 850  0    50   ~ 0
-TODO: Verify 5V LDO power
+Text Notes 2925 850  0    50   ~ 0
+TODO: Verify 5V LDO max power
 Wire Wire Line
 	8050 1850 8000 1850
 $Comp
@@ -1316,10 +1316,8 @@ F 3 "~" H 10000 3200 50  0001 C CNN
 	1    10000 3200
 	-1   0    0    1   
 $EndComp
-Text Notes 4850 2625 0    50   ~ 0
-TODO: VMON signals needed?
 Text Notes 4850 2775 0    50   ~ 0
-TODO: Ok to leave all MPU inputs floating?
+TODO: Add pull up/down for unused inputs.
 $Comp
 L Device:R_US R?
 U 1 1 622C024A
