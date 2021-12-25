@@ -1,0 +1,56 @@
+
+Tie unused input to pullups.
+
+
+Pins in use:
+------------
+VSSA_MON_0
+VSSA_MON_1
+VREF_MON
+VIN_MON
+BOARD_TYPE
+I2C_SDA
+I2C_SCL
+ACC_INT
+CAN0_TX
+CAN0_RX
+SWDCLK
+SWDIO
+RESET
+
+
+Unused pins that do need pull up:
+---------------------------------
+IO_0
+IO_1
+IO_2
+IO_3
+TEMP_0
+TEMP_1
+IO_0_OUT
+USART_RX - Short to USART_TX instead of pull up?
+
+
+Unused pins that need pull down:
+--------------------------------
+
+
+
+Unused pins that can be left non connected:
+-------------------------------------------
+OUT_0
+OUT_1
+OUT_2
+USART_TX
+out1tacho
+out2tacho
+BUTTON1
+BUTTON0
+DRIVER_0_STEP
+DRIVER_0_DIR
+DRIVER_0_DIAG
+DRIVER_ENN
+PA19
+PA23
+
+
